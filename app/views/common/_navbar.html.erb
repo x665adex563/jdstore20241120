@@ -28,6 +28,9 @@
                       <%= link_to("Admin 選單", admin_products_path ) %>
                     </li>
                   <% end %>
+                  <li>
+                    <%= link_to("個人訂單列表", account_orders_path ) %>
+                  </li>
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       Hi!, <%= current_user.email %>
                       <b class="caret"></b>
